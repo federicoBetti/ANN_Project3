@@ -38,9 +38,6 @@ continuous_env._max_episode_steps = 500
 continuous_env.seed(seed*4)
 gym.logger.setLevel(logging.WARN)
 
-get_ipython().run_line_magic('matplotlib', 'inline')
-plt.rcParams['figure.figsize'] = 12, 8
-plt.rcParams["animation.html"] = "jshtml"
 
 
 # ### Utilities
